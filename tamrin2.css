@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.card{
+    display:  grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-image{
+    display:block;
+}
+card-content {
+    line-height: 1.5 rem;
+    font-size: 0.9rem;
+    padding: 15px;
+    background: #fafafa;
+}
