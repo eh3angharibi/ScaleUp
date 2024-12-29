@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قرعه‌کشی افراد</title>
+    <style>
+        @font-face {
+    font-family: 'Shabnam';
+    src: url('fonts/Shabnam-Medium.ttf') format('truetype'),
+   
+}
+
+        body {
+            font-family: 'Shabnam', Arial, sans-serif;
+            text-align: center;
+            background-color: #04252b;
+            padding: 0px;
+            margin: 0px;
+			direction:rtl;
+			background-image: url(./background.webp);
+			background-size: auto;
+            background-repeat: no-repeat;
+}
+
+        h1 {
+            color: #333;
+        }
+
+        .container {
+            max-width: 80%;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			opacity: 0.8;
+        }
+
+        .rolling-box {
+            font-size: 2rem;
+            margin: 20px 0;
+            height: 300px;
+            line-height: 60px;
+            color: #007bff;
+            font-weight: bold;
+            border: 2px dashed #007bff;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .names {
+            position: relative;
+            height: 100%;
+            transform-style: preserve-3d;
+        }
+        .name {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform-origin: center;
+            font-size: 1.2em; /* Increased font size */
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            backface-visibility: hidden;
+            padding: 5px; /* Added padding for better spacing */
+            white-space: nowrap;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+                font-family: 'Shabnam';
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        ul {
+            list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+        }
+
+        li {
+            background: #f9f9f9;
+    margin: 5px 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 29%;
+    display: inline-block;
+        }
+        input[type="number"] {
+            width: 200px;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        input[type="number"]:focus {
+            border-color: #4a90e2;
+            box-shadow: 0 0 8px rgba(74, 144, 226, 0.3);
+        }
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        .banere {
+            margin: auto;
+            padding: 0px;
+            width: 1900px;
+        }
+    </style>
+</head>
+<body>
+    <img class="banere" src="headerbaner.webp">
+    <div class="container">
+        <h2> قرعه کشی تسهیلات شرکت پازارگاد</h2>
+        <div class="rolling-box">
+            <div class="names" id="names">
+            <!-- Names will be dynamically added here -->
+        </div>
+        </div>
+		<div class="controls" style="direction: rtl;">
+    <button id="startButton" style="background-color: #059d47;">شروع</button>
+    <button id="stopButton" disabled style="background-color: #bb0202;">توقف</button>
+    <button id="printButton">چاپ لیست برندگان</button>
+	<button id="clearButton">خالی کردن لیست برندگان</button>
+    <div class="input-container"></div>
+    <label for="number-input">تعداد برنده ها را وارد کنید:</label>
+        <input type="number" id="number-input" placeholder="">
+        </div>
+</div>
+        <h2 style="color:#ffffff;">لیست برندگان:
+		</h2>
+        <ul id="winnersList">
+        
+        </ul>
+    </div>
+	<audio id="backgroundAudio" src="./audio/audio.mpeg" loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
