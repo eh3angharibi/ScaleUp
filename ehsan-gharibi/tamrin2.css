@@ -21,7 +21,10 @@
     border-radius: 15px;
 }
 body {
-
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    direction: rtl;
 }
 .container {
     max-width: 1200px;
@@ -151,34 +154,27 @@ button:hover {
     background-color: #5e3ea0;
 }
 
-/* تنظیمات کلی صفحه */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    direction: rtl;
-}
-
 /* کانتینر اصلی */
 .content-container {
     display: flex;
     gap: 20px;
     padding: 30px;
-    max-width: 1200px;
+    max-width: 80%;
     margin: 50px auto;
     background-color: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0);
 }
 
 /* باکس ثبت‌نام */
 .register-box {
     flex: 1;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(107, 24, 103, 0.26);
+    width: 300px;
+    height: 270px;
 }
 
 .register-box h2 {
@@ -236,9 +232,10 @@ body {
 }
 
 .nav-tabs li {
-    font-size: 14px;
+    font-size: 20px;
     color: #7e57c2;
     cursor: pointer;
+    padding:0px 30px 0px 0px;
 }
 
 .details-section h1 {
