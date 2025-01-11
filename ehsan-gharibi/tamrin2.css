@@ -204,7 +204,7 @@ button:hover {
     width: 100%;
     padding: 10px 0;
     background-color: #7e57c2;
-    color: #ffffff;
+    color: #fff0f0;
     border: none;
     border-radius: 8px;
     font-size: 16px;
@@ -213,7 +213,7 @@ button:hover {
 }
 
 .register-button:hover {
-    background-color: #5e3ea0;
+    background-color: #4b2c8a;
 }
 
 /* بخش توضیحات */
