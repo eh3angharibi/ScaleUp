@@ -76,7 +76,24 @@ console.log (phon)
 console.log (select4number)
 console.log (starey)*/
 
-const fulname = "Ehsan Gharibi";
+/*const fulname = "Ehsan Gharibi";
 const spaceTndes = fulname.indexOF (" ");
 
-console.log (fulname);
+console.log (fulname);*/
+
+/*const myarray = [ "ehsan" ,"gharibi" ]
+const myarray2 = [ "ehsan2" ,"gharibi2" ] ;
+const newss = myarray.concat(myarray2)
+console.log (newss);
+console.log (myary.indexOf("ehsan"))
+const newar = myary.slice()
+const neaa = myary.splicee ( 1 , 0 , "ali" ) ;
+myary.sort();
+const myary = ["ehsan","gharibi", 26 , 2 , 3 , 4 ,5  ] ;
+
+myary.reverse()
+console.log (myary) ;
+
+*/
+
+
