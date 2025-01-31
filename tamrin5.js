@@ -68,13 +68,13 @@ const CAPtext= select1.toUpperCase();
 const finaltext = text.replace(select1 , CAPtext)
 console.log(finaltext);*/
 
-const phon = "09191695744"
+/*const phon = "09191695744"
 const select4number = phon.slice(4, 8)
 const st = "@@@@"
 const starey = phon.replace( select4number,st);
 console.log (phon)
 console.log (select4number)
-console.log (starey)*/
+console.log (starey)
 
 const fulname = "Ehsan Gharibi";
 const spaceTndes = fulname.indexOF (" ");
@@ -92,4 +92,49 @@ myary.sort();
 const myary = ["ehsan","gharibi", 26 , 2 , 3 , 4 ,5 , 3 , 4 ,5  ] ;
 
 myary.reverse()
-console.log (myary) ;
+console.log (myary) ;*/
+
+/*const price1 = 10;
+const price2 = 10;
+const price3 = 0;
+
+const valet = 50 ;
+
+const totalprice = (price1+price2)+price3*2 ;
+console.log ("totalprice",totalprice)
+const averageprice = totalprice/4 ;
+console.log ("averageprice",averageprice);
+const finalprice = totalprice * 0.95 ;
+console.log("finalprice",finalprice)
+const canbay = (finalprice >= valet) ;
+console.log("canbay",canbay)
+const massagee = canbay ? "Canbuy":"seektir";
+console.log (massagee);*/
+
+/*const text = "salam man ehsan am"
+const first1=text.charAt(0)
+const bozorg=first1.toLocaleUpperCase();
+const newfinal=text.replace(first1 , bozorg);
+console.log(newfinal)*/
+
+/*const phone = "09191695744" ;
+const spil =phone.slice(3,7);
+const setare = "@@@@"
+const finalphone=phone.replace(spil,setare);
+console.log(finalphone)
+
+const namee ="ehsan gharibi"
+const fasele=namee.split(" ")
+const witsapace= namee.indexOf(" ");
+const joda=namee.slice(0, witsapace);
+const jooda=namee.slice(witsapace +1)
+const namea = `yore name ${joda} and lsatname ${jooda}`
+console.log(namea)*/
+
+const namee ="ali gharibi"
+const fasele=namee.split(" ")
+const witsapace= namee.indexOf(" ");
+const joda=namee.slice(0, witsapace);
+const jooda=namee.slice(witsapace +1)
+const namea = `yore name ${joda} and lsatname ${jooda}`
+console.log(namea)
