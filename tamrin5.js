@@ -131,10 +131,46 @@ const jooda=namee.slice(witsapace +1)
 const namea = `yore name ${joda} and lsatname ${jooda}`
 console.log(namea)*/
 
-const namee ="ali gharibi"
+/*const namee ="ali gharibi"
 const fasele=namee.split(" ")
 const witsapace= namee.indexOf(" ");
 const joda=namee.slice(0, witsapace);
 const jooda=namee.slice(witsapace +1)
 const namea = `yore name ${joda} and lsatname ${jooda}`
-console.log(namea)
+console.log(namea)*/
+
+/*const capy = "hi ehsan gharibi"
+const avalei = capy.charAt(0);
+const a1 = avalei.toUpperCase();
+const a2 = capy .replace (avalei , a1)
+console.log(a2)*/
+
+/*const shomare = "09191695744" ;
+const sansour = "####";
+const chartaei = shomare.slice(4 , 9)
+const reepy = shomare.replace(chartaei,sansour)
+console.log (shomare)
+console.log (sansour)
+console.log (chartaei)
+console.log (reepy) */
+
+/*const zol = "zoli Ghari"
+const spacesw =zol.indexOf(" ");
+const joooda = zol.slice
+const name1=zol.slice(0,spacesw)
+const famil1=zol.slice(joooda+1)
+const tamam = `yorname ${name1} va familet ${famil1} tamam`
+console.log(tamam)*/
+
+/*const sport= [];
+sport.push("football")
+sport.push("basket")
+sport.push("dow")
+sport.push("mench")
+sport.push("zoo")
+const reshte= sport.join(" va ")
+const akhar =sport.length-1;
+sport.splice(akhar)
+const ferst2 = sport.slice(0,2);
+console.log(ferst2)*/
+
