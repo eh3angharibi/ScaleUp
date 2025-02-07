@@ -36,7 +36,7 @@ console.log ("takfife :" , takhfif)
 const canbuy = walet >= totalprice ;
 console.log ("mitonei bekhari :" , canbuy)
 const massage = canbuy ? "Afarin mitonei bekhari" : "seikteir nemitonei"; 
-console.log ("vazeiyat : ", massage)*/ ;
+console.log ("vazeiyat : ", massage)*/
 //number methods
 /*const number =50 ;
 console.log(number);
@@ -67,7 +67,6 @@ const select1 = text.charAt();
 const CAPtext= select1.toUpperCase();
 const finaltext = text.replace(select1 , CAPtext)
 console.log(finaltext);*/
-
 /*const phon = "09191695744"
 const select4number = phon.slice(4, 8)
 const st = "@@@@"
@@ -75,12 +74,9 @@ const starey = phon.replace( select4number,st);
 console.log (phon)
 console.log (select4number)
 console.log (starey)
-
 const fulname = "Ehsan Gharibi";
 const spaceTndes = fulname.indexOF (" ");
-
 console.log (fulname);
-
 const myarray = [ "ehsan" ,"gharibi" ]
 const myarray2 = [ "ehsan2" ,"gharibi2" ] ;
 const newss = myarray.concat(myarray2)
@@ -90,16 +86,12 @@ const newar = myary.slice()
 const neaa = myary.splicee ( 1 , 0 , "ali" ) ;
 myary.sort();
 const myary = ["ehsan","gharibi", 26 , 2 , 3 , 4 ,5 , 3 , 4 ,5  ] ;
-
 myary.reverse()
 console.log (myary) ;*/
-
 /*const price1 = 10;
 const price2 = 10;
 const price3 = 0;
-
 const valet = 50 ;
-
 const totalprice = (price1+price2)+price3*2 ;
 console.log ("totalprice",totalprice)
 const averageprice = totalprice/4 ;
@@ -110,19 +102,16 @@ const canbay = (finalprice >= valet) ;
 console.log("canbay",canbay)
 const massagee = canbay ? "Canbuy":"seektir";
 console.log (massagee);*/
-
 /*const text = "salam man ehsan am"
 const first1=text.charAt(0)
 const bozorg=first1.toLocaleUpperCase();
 const newfinal=text.replace(first1 , bozorg);
 console.log(newfinal)*/
-
 /*const phone = "09191695744" ;
 const spil =phone.slice(3,7);
 const setare = "@@@@"
 const finalphone=phone.replace(spil,setare);
 console.log(finalphone)
-
 const namee ="ehsan gharibi"
 const fasele=namee.split(" ")
 const witsapace= namee.indexOf(" ");
@@ -130,7 +119,6 @@ const joda=namee.slice(0, witsapace);
 const jooda=namee.slice(witsapace +1)
 const namea = `yore name ${joda} and lsatname ${jooda}`
 console.log(namea)*/
-
 /*const namee ="ali gharibi"
 const fasele=namee.split(" ")
 const witsapace= namee.indexOf(" ");
@@ -138,13 +126,11 @@ const joda=namee.slice(0, witsapace);
 const jooda=namee.slice(witsapace +1)
 const namea = `yore name ${joda} and lsatname ${jooda}`
 console.log(namea)*/
-
 /*const capy = "hi ehsan gharibi"
 const avalei = capy.charAt(0);
 const a1 = avalei.toUpperCase();
 const a2 = capy .replace (avalei , a1)
 console.log(a2)*/
-
 /*const shomare = "09191695744" ;
 const sansour = "####";
 const chartaei = shomare.slice(4 , 9)
@@ -153,7 +139,6 @@ console.log (shomare)
 console.log (sansour)
 console.log (chartaei)
 console.log (reepy) */
-
 /*const zol = "zoli Ghari"
 const spacesw =zol.indexOf(" ");
 const joooda = zol.slice
@@ -161,7 +146,6 @@ const name1=zol.slice(0,spacesw)
 const famil1=zol.slice(joooda+1)
 const tamam = `yorname ${name1} va familet ${famil1} tamam`
 console.log(tamam)*/
-
 /*const sport= [];
 sport.push("football")
 sport.push("basket")
@@ -173,4 +157,44 @@ const akhar =sport.length-1;
 sport.splice(akhar)
 const ferst2 = sport.slice(0,2);
 console.log(ferst2)*/
+/*const Dars=[]
+Dars .push ("feizi")
+Dars .push ("reyazei")
+Dars .push ("sheyme")
+Dars .push ("quran")
+Dars .push ("vrzesh")
+const reshtee = Dars.join(" | ")
+const matne = `on darshey ke man dost daram ${reshtee} hastan`
+const akharinindex = Dars.length -1;
+Dars.splice(akharinindex-1);
+const firsttowdars = Dars.slice(0,2)
+Dars.splice(0,2, firsttowdars)
+console.log(firsttowdars);
+console.log(Dars);*/
+/*const fullstack = [
+    ["html","css","js","reack"],
+    ["node","sql","mongo"],
+const [fro,backo] =fullstack;
+const [,css,,] = frei;
+const frontend =fullstack[0]
+const backend =fullstack[1]
+console.log(fullstack)
+console.log(frontend)
+console.log(backend)*/
+/*const data = [
+    {
+        identity : {
+            name : "ehsan",
+            lastname : "gharibi",
+            city : "tehran",
+            age: '26',
+        },   
+        },
+    {skills:["js","css","htei"]},
+];
+
+const[ identity , skills ] = data;
+const {identity:identitydata} = identity;
+identitydata: {};
+console.log(identitydata*///
 
