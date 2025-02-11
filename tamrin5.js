@@ -198,3 +198,17 @@ const {identity:identitydata} = identity;
 identitydata: {};
 console.log(identitydata*///
 
+/*const side1 =5 ;
+const side2 =1 ;
+const side3 =2 ;
+
+if ((side1 === side2) && (side2 === side3)) {
+    console.log("متساوی الاضلاع");
+}
+    else if ( side1===side2 || side2 === side3 || side1===side3 )
+        console.log("متساوی الساقین")
+    else {
+        console.log("برابر نیست")
+    }
+
+console.log(side1)*/
