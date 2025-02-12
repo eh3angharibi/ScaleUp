@@ -198,7 +198,8 @@ const {identity:identitydata} = identity;
 identitydata: {};
 console.log(identitydata*///
 
-/*const side1 =5 ;
+/*
+const side1 =5 ;
 const side2 =1 ;
 const side3 =2 ;
 
@@ -212,3 +213,62 @@ if ((side1 === side2) && (side2 === side3)) {
     }
 
 console.log(side1)*/
+
+/*const date1 = new Date('2024-06-30')
+const date2 = new Date('2024-06-29')
+const result = date1 > date2 ;
+console.log (result)*/
+
+/*const zele1 = 3 ;
+const zele2 = 3 ;
+const zele3 = 3 ;
+const zele4 = 5 ;
+if (zele1 === zele2 && zele3 === zele4 ) {
+    console.log("مربع");
+}
+else {
+    console.log ("مستطیل")
+}*/
+
+/*let meghdar = 8;
+
+if (meghdar === 0){
+    console.log("KHonsa")
+}
+else if (meghdar > 0){
+    console.log("Mosbat")
+}
+else {
+    console.log("MANfei")
+}*/
+
+/*let Adade1 = 3 ;
+let Adade2 = 9 ;
+
+if (Adade1 === Adade2){
+    console.log("Mosavei")
+}
+else if ( Adade1 > Adade2){
+    console.log("ADADE 1 Bozorgtar ast")
+}
+else {
+    console.log("ADADE 2 bozorg ta ast")
+}*/
+
+/*const adade = 66 ;
+
+if (adade %2 === 0 ){
+    console.log("JOOOZ")
+}
+else {
+    console.log ("FARDDD")
+}*/
+/*const naumers = [13 , 23 , 12 , 45 , 22 , 48 , 66 , 100 ];
+const eeven = [] ;
+for (let i = 0; i < naumers.length; i++){
+    if(naumers[i] % 2 === 0) { 
+        console.log(naumers[i])
+        eeven.push()
+    };
+
+}*/
