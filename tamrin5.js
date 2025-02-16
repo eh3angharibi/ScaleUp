@@ -272,3 +272,47 @@ for (let i = 0; i < naumers.length; i++){
     };
 
 }*/
+
+/*const countLetter = (str, latter ) =>{
+    let counter = 0;
+    for (let i=0 ; i < str.length ; i++){
+        if(str[i] === latter) {
+            counter++
+        }
+    }
+    return counter;
+};
+const result = countLetter("i am ehsan" , "");
+console.log (result)*/
+
+/*for (let x=1 ; x>10 ; x++ ) {
+    console.log(x);
+}*/
+
+/*const arrray = [2 , 4 , 6 , 8];
+for (let i=0 ; i < arrray.length ; i++ ) {
+    console.log( arrray[i] * 16 )
+}*/
+
+/*function showmasge() {
+    console.log("hisectir");
+}
+showmasge()*/
+
+/*function doplei(adad) {
+    const resulte = adad * 2;
+    console.log(resulte)
+}
+doplei(9)
+*/
+
+function sum (num1 , num2) {
+    const rezal = num1 + num2;
+    return rezal;
+
+}
+sum( 2 , 2)
+
+
+
+
