@@ -305,14 +305,29 @@ showmasge()*/
 }
 doplei(9)
 */
-
-function sum (num1 , num2) {
+/*function sum (num1 , num2) {
     const rezal = num1 + num2;
     return rezal;
+sum( 2 , 2)*/
+//const sum = function(num1 , num2) {
+//    return num1 + num2 ;
+//}
+//const result = sum (1 , 21)/
+//console.log(result)//
+/* const sum = (s1 , s2) => s1 +s2
+const result = sum (1 , 2)
+console.log(result) */
 
-}
-sum( 2 , 2)
-
-
+// const counr = (str , letr ) => {
+//     let cter = 0 ;
+//     for ( let b =0; b <str.length; b++) {
+//         if (str [b] === letr) {
+//                 cter ++; 
+//             }
+//     }
+//     return cunter;
+// };
+// const result = counr ("salamaty","s");
+// console.log(result);
 
 
