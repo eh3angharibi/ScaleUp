@@ -329,5 +329,6 @@ console.log(result) */
 // };
 // const result = counr ("salamaty","s");
 // console.log(result);
-
-
+// const myMap = new Map();
+// myMap.set("ehsam" , "Gharibi")
+// console.log(myMap)
